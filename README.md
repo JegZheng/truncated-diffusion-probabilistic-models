@@ -40,6 +40,18 @@ For desired diffusion chain length, you may modify the value of variable named "
 
 ![example_results](assets/lsun_church.jpg)
 
+## References
+
+If you find the code useful for your research, please consider citing
+```bib
+@article{zheng2022truncated,
+  title={Truncated Diffusion Probabilistic Models},
+  author={Zheng, Huangjie and He, Pengcheng and Chen, Weizhu and Zhou, Mingyuan},
+  journal={arXiv preprint arXiv:2202.09671},
+  year={2022}
+}
+```
+
 ## Acknowledgements
 
 This implementation is based on / inspired by:
