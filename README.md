@@ -8,6 +8,7 @@ Truncated diffusion probabilistic model is a framework that improves the diffusi
 
 ![motiv](assets/motiv.jpg)
 
+In the truncated diffusion probabilistic model, the implicit generative model (GAN) and diffusion models help each other to complete their own task. The diffusion process facilitate the training of GAN (with increasing T), and GAN helps the sampling efficiency of the diffusion model. Our recent paper also shows the diffusion process is able to stablize the training of GANs. Please refer to [Diffusion-GAN](https://arxiv.org/abs/2206.02262).
 
 ## About this repository
 The repo currently supports the training of truncated diffusion probabilistic models. The mainbody of the code is built and modified from [DDIM](https://github.com/ermongroup/ddim).
