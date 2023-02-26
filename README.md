@@ -28,14 +28,13 @@ The usage is almost the same as shown in [https://github.com/ermongroup/ddim](ht
 For desired diffusion chain length, you may modify the value of variable named "truncated_timestep" in the config .yml files. 
 
 ### TDPM Efficiency
-| T   | FID  | speed-up DDPM |
-|-----|------|---------------|
-| 999 | 3.07 | x1            |
-| 99  | 3.10 | x10           |
-| 49  | 3.30 | x20           |
-| 3   | 3.41 | x250          |
-| 1   | 4.47 | x500          |
-| 0   | 8.91 | x1000         |
+| T   | FID  | speed-up DDPM |model|
+|-----|------|---------------|---------------|
+| 999 | 3.07 | x1            |- |
+| 99  | 3.10 | x10           |[link](https://tsciencescu.blob.core.windows.net/projectshzheng/TDPM/T_99/network.pkl)|
+| 49  | 3.30 | x20           |[link](https://tsciencescu.blob.core.windows.net/projectshzheng/TDPM/T_49/network.pkl)|
+| 3   | 3.41 | x250          |[link](https://tsciencescu.blob.core.windows.net/projectshzheng/TDPM/T_4/network.pkl)|
+| 0   | 8.91 | x1000         |[link](https://tsciencescu.blob.core.windows.net/projectshzheng/TDPM/T_0/network.pkl)|
 
 
 ![example_results](assets/lsun_church.jpg)
